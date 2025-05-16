@@ -3,6 +3,7 @@ package com.aoun.usermanagement.controller;
 import com.aoun.usermanagement.entity.Provider;
 import com.aoun.usermanagement.service.ProviderService;
 import lombok.AllArgsConstructor;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -19,8 +20,8 @@ public class ProviderController {
     }
 
     @PostMapping("/add-provider")
-    public Provider addProvider(@RequestBody Provider provider){
-        return providerService.addProvider(provider);
+    public ResponseEntity<Provider> addProvider(@RequestBody Provider provider){
+        return ResponseEntity.ok(providerService.addProvider(provider));
     }
 
     @GetMapping("/retrieve-provider/{provider-id}")

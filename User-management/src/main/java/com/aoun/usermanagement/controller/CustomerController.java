@@ -3,6 +3,7 @@ package com.aoun.usermanagement.controller;
 import com.aoun.usermanagement.entity.Customer;
 import com.aoun.usermanagement.service.CustomerService;
 import lombok.AllArgsConstructor;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -19,8 +20,8 @@ public class CustomerController {
     }
 
     @PostMapping("/add-customer")
-    public Customer addCustomer(@RequestBody Customer customer){
-        return customerService.addCustomer(customer);
+    public ResponseEntity<Customer> addCustomer(@RequestBody Customer customer){
+        return ResponseEntity.ok(customerService.addCustomer(customer));
     }
 
     @GetMapping("/retrieve-customer/{customer-id}")
