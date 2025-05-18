@@ -21,19 +21,16 @@ import java.util.Optional;
 @Service
 @AllArgsConstructor
 public class MyUserDetailsService implements UserDetailsService {
-
-
     UserRepository userRepository;
-
     @Override
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
         User user = userRepository.findByUserEmail(email)
-                .orElseThrow(() -> new UsernameNotFoundException("Utilisateur non trouvé"));
+                .orElseThrow(() -> new UsernameNotFoundException("User not found !"));
 
         return new org.springframework.security.core.userdetails.User(
                 user.getUserEmail(),
                 user.getUserPassword(),
-                List.of(new SimpleGrantedAuthority(user.getUserRole()))
+                List.of(new SimpleGrantedAuthority("ROLE_" +user.getUserRole()))
         );
     }
 }
