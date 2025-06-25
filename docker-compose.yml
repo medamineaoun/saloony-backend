@@ -1,0 +1,85 @@
+version: '3.9'
+
+services:
+  eureka-server:
+    build: ./Eureka-server
+    image: medamineaoun/eureka-server:1.0
+    container_name: saloony-eureka-server
+    ports:
+      - "8761:8761"
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka
+    networks:
+      - saloony-network
+
+  mysql-db:
+    image: "mysql:5.6"
+    container_name: saloony-mysql-db
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=saloony_db
+      - MYSQL_USER=saloony_user
+      - MYSQL_PASSWORD=saloony_pass
+    restart: unless-stopped
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      - saloony-network
+
+  user-management:
+    build: ./User-management
+    image: medamineaoun/user-management:1.0
+    container_name: saloony-user-management
+    ports:
+      - "8081:8081"
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-db:3306/saloony_db?createDatabaseIfNotExist=true
+      - SPRING_DATASOURCE_USERNAME=saloony_user
+      - SPRING_DATASOURCE_PASSWORD=saloony_pass
+    depends_on:
+      - eureka-server
+      - mysql-db
+    networks:
+      - saloony-network
+
+  salon-management:
+    build: ./Salon-management
+    image: medamineaoun/salon-management:1.0
+    container_name: saloony-salon-management
+    ports:
+      - "8082:8082"
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-db:3306/saloony_db?createDatabaseIfNotExist=true
+      - SPRING_DATASOURCE_USERNAME=saloony_user
+      - SPRING_DATASOURCE_PASSWORD=saloony_pass
+    depends_on:
+      - eureka-server
+      - mysql-db
+    networks:
+      - saloony-network
+
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: saloony-phpmyadmin
+    restart: always
+    ports:
+      - "8083:80"
+    environment:
+      - PMA_HOST=mysql-db
+      - PMA_USER=saloony_user
+      - PMA_PASSWORD=saloony_pass
+    depends_on:
+      - mysql-db
+    networks:
+      - saloony-network
+
+networks:
+  saloony-network:
+    driver: bridge
+
+volumes:
+  mysql-data:
