@@ -1,5 +1,7 @@
 package com.aoun.salonmanagement.service;
 
+import com.aoun.salonmanagement.client.ProviderClient;
+import com.aoun.salonmanagement.dto.ProviderDto;
 import com.aoun.salonmanagement.entity.Salon;
 import com.aoun.salonmanagement.repository.SalonRepository;
 import lombok.AllArgsConstructor;
@@ -11,6 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 public class SalonService implements ISalonService{
     SalonRepository salonRepository;
+    ProviderClient providerClient;
     @Override
     public List<Salon> retrieveAllSalons() {
         return salonRepository.findAll();
@@ -34,5 +37,12 @@ public class SalonService implements ISalonService{
     @Override
     public Salon modifySalon(Salon salon) {
         return salonRepository.save(salon);
+    }
+
+    public List<ProviderDto> retrieveAllProviders(){
+        return providerClient.getProviders();
+    }
+    public ProviderDto retrieveProvider(Long providerId){
+        return providerClient.retrieveProvider(providerId);
     }
 }

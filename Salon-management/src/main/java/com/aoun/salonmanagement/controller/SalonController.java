@@ -1,5 +1,6 @@
 package com.aoun.salonmanagement.controller;
 
+import com.aoun.salonmanagement.dto.ProviderDto;
 import com.aoun.salonmanagement.entity.Salon;
 import com.aoun.salonmanagement.service.SalonService;
 import lombok.AllArgsConstructor;
@@ -36,5 +37,15 @@ public class SalonController {
     @PutMapping("/modify-salon")
     public Salon modifySalon(@RequestBody Salon salon){
         return salonService.modifySalon(salon);
+    }
+
+    @GetMapping("/retrieve-all-providers")
+    public List<ProviderDto> getProviders(){
+        return salonService.retrieveAllProviders();
+    }
+
+    @GetMapping("/retrieve-provider/{provider-id}")
+    public ProviderDto retrieveProvider(@PathVariable("provider-id") Long providerId){
+        return salonService.retrieveProvider(providerId);
     }
 }
