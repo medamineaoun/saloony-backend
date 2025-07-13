@@ -31,5 +31,8 @@
         @Enumerated(EnumType.STRING)
         private Status status;
 
+        @OneToOne
+        @JoinColumn(name = "id_daterdv", nullable = false)
+        private DateHour  dateRDV;
         // getters et setters
     }
