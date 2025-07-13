@@ -4,17 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7" name="Changes" comment="availability management service">
-      <change beforePath="$PROJECT_DIR$/Availability-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Availability-management/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7" name="Changes" comment="frontend project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$/saloony-front" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/medamineaoun/saloony-backend.git",
+    "accountId": "b935e9cf-fd08-47ea-ba28-c826083797a1"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -48,6 +59,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "/home/aziz/Desktop/saloony/saloony-backend/saloony-front/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -120,7 +132,63 @@
       <option name="project" value="LOCAL" />
       <updated>1752411784710</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="availability management service">
+      <option name="closed" value="true" />
+      <created>1752412323790</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752412323790</updated>
+    </task>
+    <task id="LOCAL-00003" summary="frontend project">
+      <option name="closed" value="true" />
+      <created>1752432034036</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752432034036</updated>
+    </task>
+    <task id="LOCAL-00004" summary="frontend project">
+      <option name="closed" value="true" />
+      <created>1752432277307</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752432277307</updated>
+    </task>
+    <task id="LOCAL-00005" summary="frontend project">
+      <option name="closed" value="true" />
+      <created>1752432527771</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752432527771</updated>
+    </task>
+    <task id="LOCAL-00006" summary="frontend project">
+      <option name="closed" value="true" />
+      <created>1752432660736</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752432660736</updated>
+    </task>
+    <task id="LOCAL-00007" summary="frontend project">
+      <option name="closed" value="true" />
+      <created>1752432812658</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1752432812658</updated>
+    </task>
+    <task id="LOCAL-00008" summary="frontend project">
+      <option name="closed" value="true" />
+      <created>1752432920523</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1752432920523</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +196,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="availability management service" />
-    <option name="LAST_COMMIT_MESSAGE" value="availability management service" />
+    <MESSAGE value="frontend project" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
