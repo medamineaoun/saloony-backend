@@ -4,7 +4,7 @@ import connectDB from './config/connectDB.js';
 import cors from 'cors'
 import router from './router/notificationRoutes.js';
 
-
+import { eurekaClient } from './config/eureka.js';
 
 const app =express()
 
@@ -26,3 +26,13 @@ app.use("/notifications",router);
 
 // create server 
 app.listen(PORT,(err)=>err?console.log(err):console.log(`serve is runnig in port ${PORT}`))
+
+
+//démarre le client Eureka
+eurekaClient.start((error) => {
+  if (error) {
+    console.error('Erreur lors de l’enregistrement Eureka :', error);
+  } else {
+    console.log('✅ Notification-service enregistré avec Eureka');
+  }
+});
