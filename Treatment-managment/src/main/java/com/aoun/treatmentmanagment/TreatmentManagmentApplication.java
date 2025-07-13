@@ -8,7 +8,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 
 @SpringBootApplication
-@EnableDiscoveryClient
+@EnableDiscoveryClieny
 @EnableFeignClients(basePackages = "com.aoun.treatmentmanagment.feign")
 public class TreatmentManagmentApplication {
 	public static void main(String[] args) {
