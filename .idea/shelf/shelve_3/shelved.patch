@@ -1,0 +1,238 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7\" name=\"Changes\" comment=\"availability management service\">\r\n      <change beforePath=\"$PROJECT_DIR$/Availability-management/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Availability-management/pom.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 8\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2xjERsbSMaftNO7MOnyykQQwAwN\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RequestMappingsPanelOrder0\": \"0\",\r\n    \"RequestMappingsPanelOrder1\": \"1\",\r\n    \"RequestMappingsPanelWidth0\": \"75\",\r\n    \"RequestMappingsPanelWidth1\": \"75\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"dart.analysis.tool.window.visible\": \"false\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"last_opened_file_path\": \"E:/Desktop/cours/cours_Esprit_2/microservices/saloony-backend\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"project.structure.last.edited\": \"Project\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.0\",\r\n    \"settings.editor.selected.configurable\": \"project.propVCSSupport.DirectoryMappings\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ReactorSettings\">\r\n    <option name=\"notificationShown\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"E:\\Desktop\\cours\\cours_Esprit_2\\microservices\\saloony-backend\\Config-server\\src\\main\\resources\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunDashboard\">\r\n    <option name=\"configurationTypes\">\r\n      <set>\r\n        <option value=\"KtorApplicationConfigurationType\" />\r\n        <option value=\"MicronautRunConfigurationType\" />\r\n        <option value=\"QuarkusRunConfigurationType\" />\r\n        <option value=\"SpringBootApplicationConfigurationType\" />\r\n      </set>\r\n    </option>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Spring Boot.ConfigServerApplication\">\r\n    <configuration name=\"ConfigServerApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"Config-server\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.aoun.configserver.ConfigServerApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"EurekaServerApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"Eureka-server\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.aoun.eurekaserver.EurekaServerApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"GestionRdvApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"GestionRDV\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.example.gestionrdv.GestionRdvApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"SalonManagementApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"Salon-management\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.aoun.salonmanagement.SalonManagementApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7\" name=\"Changes\" comment=\"\" />\r\n      <created>1748443078686</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1748443078686</updated>\r\n      <workItem from=\"1748443080039\" duration=\"312000\" />\r\n      <workItem from=\"1752337552683\" duration=\"4856000\" />\r\n      <workItem from=\"1752353717181\" duration=\"59000\" />\r\n      <workItem from=\"1752354069348\" duration=\"8584000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"availability management service\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1752411784710</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1752411784710</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"availability management service\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"availability management service\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/Config-server/src/main/java/com/aoun/configserver/ConfigServerApplication.java</url>\r\n          <line>8</line>\r\n          <option name=\"timeStamp\" value=\"5\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 31c1aac66f57f1a930177bb0b9639185afd9a316)
++++ b/.idea/workspace.xml	(date 1752441651197)
+@@ -5,7 +5,14 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7" name="Changes" comment="availability management service">
+-      <change beforePath="$PROJECT_DIR$/Availability-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Availability-management/pom.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2025_7_44___Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2025_7_44___Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2025_7_44___Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2025_7_44___Changes_1.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_7_2025_2_00___Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_7_2025_2_00___Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_7_2025_2_00___Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_7_2025_2_00___Changes_1.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -17,6 +24,9 @@
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
++  </component>
++  <component name="MavenRunner">
++    <option name="skipTests" value="true" />
+   </component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 8
+@@ -28,6 +38,7 @@
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
++    "Maven.api-gateway [clean,install].executor": "Run",
+     "RequestMappingsPanelOrder0": "0",
+     "RequestMappingsPanelOrder1": "1",
+     "RequestMappingsPanelWidth0": "75",
+@@ -35,9 +46,15 @@
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "Spring Boot.ApiGatewayApplication.executor": "Run",
++    "Spring Boot.EurekaServerApplication.executor": "Run",
++    "Spring Boot.SalonManagementApplication.executor": "Run",
++    "Spring Boot.TreatmentManagmentApplication.executor": "Run",
++    "Spring Boot.UserManagementApplication.executor": "Run",
+     "WebServerToolWindowFactoryState": "false",
+     "dart.analysis.tool.window.visible": "false",
+     "git-widget-placeholder": "main",
++    "jdk.selected.JAVA_MODULE": "17",
+     "last_opened_file_path": "E:/Desktop/cours/cours_Esprit_2/microservices/saloony-backend",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+@@ -47,6 +64,7 @@
+     "project.structure.last.edited": "Project",
+     "project.structure.proportion": "0.0",
+     "project.structure.side.proportion": "0.0",
++    "run.configurations.included.in.services": "true",
+     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+     "vue.rearranger.settings.migration": "true"
+   }
+@@ -70,6 +88,20 @@
+     </option>
+   </component>
+   <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
++    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
++      <module name="Api-gateway" />
++      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aoun.apigateway.ApiGatewayApplication" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="AvailabilitymngApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
++      <module name="availabilitymng" />
++      <option name="SPRING_BOOT_MAIN_CLASS" value="com.availabilitymng.availabilitymng.AvailabilitymngApplication" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+       <module name="Config-server" />
+       <option name="SPRING_BOOT_MAIN_CLASS" value="com.aoun.configserver.ConfigServerApplication" />
+@@ -98,6 +130,20 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
++    <configuration name="TreatmentManagmentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
++      <module name="Treatment-managment" />
++      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aoun.treatmentmanagment.TreatmentManagmentApplication" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="UserManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
++      <module name="User-management" />
++      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aoun.usermanagement.UserManagementApplication" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -125,10 +171,22 @@
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="availability management service" />
+-    <option name="LAST_COMMIT_MESSAGE" value="availability management service" />
++    <MESSAGE value="shelve 2" />
++    <option name="LAST_COMMIT_MESSAGE" value="shelve 2" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/GestionRDV/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/Eureka-server/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/Salon-management/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/Config-server/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"17\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 31c1aac66f57f1a930177bb0b9639185afd9a316)
++++ b/.idea/misc.xml	(date 1752437906353)
+@@ -1,3 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ExternalStorageConfigurationManager" enabled="true" />
+   <component name="MavenProjectsManager">
+@@ -7,10 +8,14 @@
+         <option value="$PROJECT_DIR$/Eureka-server/pom.xml" />
+         <option value="$PROJECT_DIR$/Salon-management/pom.xml" />
+         <option value="$PROJECT_DIR$/Config-server/pom.xml" />
++        <option value="$PROJECT_DIR$/Treatment-managment/pom.xml" />
++        <option value="$PROJECT_DIR$/Availability-management/pom.xml" />
++        <option value="$PROJECT_DIR$/User-management/pom.xml" />
++        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Encoding\">\r\n    <file url=\"file://$PROJECT_DIR$/Config-server/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Eureka-server/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/GestionRDV/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/GestionRDV/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Salon-management/src/main/java\" charset=\"UTF-8\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+--- a/.idea/encodings.xml	(revision 31c1aac66f57f1a930177bb0b9639185afd9a316)
++++ b/.idea/encodings.xml	(date 1752440353306)
+@@ -1,10 +1,14 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/Api-gateway/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/Availability-management/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/Config-server/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/Eureka-server/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/GestionRDV/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/GestionRDV/src/main/resources" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/Salon-management/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/Treatment-managment/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/User-management/src/main/java" charset="UTF-8" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile default=\"true\" name=\"Default\" enabled=\"true\" />\r\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\r\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\r\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <module name=\"Config-server\" />\r\n        <module name=\"Salon-management\" />\r\n        <module name=\"Eureka-server\" />\r\n        <module name=\"GestionRDV\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n  </component>\r\n  <component name=\"JavacSettings\">\r\n    <option name=\"ADDITIONAL_OPTIONS_OVERRIDE\">\r\n      <module name=\"Config-server\" options=\"-parameters\" />\r\n      <module name=\"Eureka-server\" options=\"-parameters\" />\r\n      <module name=\"GestionRDV\" options=\"-parameters\" />\r\n      <module name=\"Salon-management\" options=\"-parameters\" />\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision 31c1aac66f57f1a930177bb0b9639185afd9a316)
++++ b/.idea/compiler.xml	(date 1752440353303)
+@@ -8,18 +8,34 @@
+         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+         <outputRelativeToContentRoot value="true" />
+         <module name="Config-server" />
++        <module name="Treatment-managment" />
++        <module name="Api-gateway" />
++        <module name="User-management" />
+         <module name="Salon-management" />
+         <module name="Eureka-server" />
+         <module name="GestionRDV" />
+       </profile>
++      <profile name="Annotation profile for availabilitymng" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <processorPath useClasspath="false">
++          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
++        </processorPath>
++        <module name="availabilitymng" />
++      </profile>
+     </annotationProcessing>
+   </component>
+   <component name="JavacSettings">
+     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
++      <module name="Api-gateway" options="-parameters" />
+       <module name="Config-server" options="-parameters" />
+       <module name="Eureka-server" options="-parameters" />
+       <module name="GestionRDV" options="-parameters" />
+       <module name="Salon-management" options="-parameters" />
++      <module name="Treatment-managment" options="-parameters" />
++      <module name="User-management" options="-parameters" />
++      <module name="availabilitymng" options="-parameters" />
+     </option>
+   </component>
+ </project>
+\ No newline at end of file

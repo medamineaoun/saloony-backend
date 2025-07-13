@@ -1,0 +1,44 @@
+<changelist name="shelve_2" date="1752425487617" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/shelve_2/shelved.patch" />
+  <option name="DESCRIPTION" value="shelve 2" />
+  <binary>
+    <option name="BEFORE_PATH" value="Availability-management/target/classes/com/availabilitymng/availabilitymng/entity/Role.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Availability-management/target/classes/com/availabilitymng/availabilitymng/service/UserService.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Availability-management/target/classes/com/availabilitymng/availabilitymng/AvailabilitymngApplication.class" />
+    <option name="AFTER_PATH" value="Availability-management/target/classes/com/availabilitymng/availabilitymng/AvailabilitymngApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/shelve_2/AvailabilitymngApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Availability-management/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Availability-management/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Availability-management/target/test-classes/com/availabilitymng/availabilitymng/AvailabilitymngApplicationTests.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="GestionRDV/target/classes/com/example/gestionrdv/RDVREST/RDVRestController.class" />
+    <option name="AFTER_PATH" value="GestionRDV/target/classes/com/example/gestionrdv/RDVREST/RDVRestController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/shelve_2/RDVRestController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="GestionRDV/target/classes/com/example/gestionrdv/RDVREST/RDVService.class" />
+    <option name="AFTER_PATH" value="GestionRDV/target/classes/com/example/gestionrdv/RDVREST/RDVService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/shelve_2/RDVService.class" />
+  </binary>
+</changelist>
