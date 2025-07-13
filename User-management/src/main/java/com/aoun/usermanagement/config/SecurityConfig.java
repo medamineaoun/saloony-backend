@@ -29,10 +29,10 @@ public class SecurityConfig {
         return http
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/auth/login", "/api/provider/add-provider", "/api/customer/add-customer","/api/admin/add-admin").permitAll()
-                        .requestMatchers("/api/admin/**").hasRole("ADMIN")
+//                        .requestMatchers("/api/auth/login", "/api/provider/add-provider", "/api/customer/add-customer","/api/admin/add-admin").permitAll()
+                        .requestMatchers("/api/admin/**").permitAll()
                         .requestMatchers("/api/provider/**").permitAll()
-                        .requestMatchers("/api/customer/**").hasRole("CUSTOMER")
+                        .requestMatchers("/api/customer/**").permitAll()
                         .anyRequest().authenticated()
                 )
                 .sessionManagement(session -> session
