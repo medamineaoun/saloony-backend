@@ -1,0 +1,49 @@
+<div class="auth-container">
+  <h2>Create Account</h2>
+
+  <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">Full Name</label>
+      <input
+        type="text"
+        id="name"
+        formControlName="name"
+        [class.invalid]="signupForm.get('name')?.invalid && signupForm.get('name')?.touched">
+
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        formControlName="email"
+        [class.invalid]="signupForm.get('email')?.invalid && signupForm.get('email')?.touched">
+
+
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input
+        type="password"
+        id="password"
+        formControlName="password"
+        [class.invalid]="signupForm.get('password')?.invalid && signupForm.get('password')?.touched">
+
+
+    </div>
+
+
+
+    <button
+      type="submit"
+      [disabled]="signupForm.invalid || isLoading">
+
+    </button>
+  </form>
+
+  <p class="auth-link">
+    Already have an account? <a routerLink="/login">Log in</a>
+  </p>
+</div>
