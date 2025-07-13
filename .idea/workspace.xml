@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7" name="Changes" comment="frontend project">
-      <change beforePath="$PROJECT_DIR$/saloony-front" beforeDir="false" afterPath="$PROJECT_DIR$/saloony-front" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/medamineaoun/saloony-backend.git",
+    "accountId": "b935e9cf-fd08-47ea-ba28-c826083797a1"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -151,7 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752432277307</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="frontend project">
+      <option name="closed" value="true" />
+      <created>1752432527771</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752432527771</updated>
+    </task>
+    <task id="LOCAL-00006" summary="frontend project">
+      <option name="closed" value="true" />
+      <created>1752432660736</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752432660736</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
