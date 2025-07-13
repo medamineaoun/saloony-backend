@@ -1,5 +1,6 @@
 package com.example.gestionrdv.RDVREST;
 
+import com.example.gestionrdv.feignClient.AvailableDateFeignClient;
 import jakarta.websocket.server.PathParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -29,7 +30,15 @@ public class RDVRestController {
     @Autowired
     private ClientDTORepository clientDTORepository;
 
+    private final AvailableDateFeignClient availableDateFeignClient;
 
+    public RDVRestController(AvailableDateFeignClient availableDateFeignClient) {
+        this.availableDateFeignClient = availableDateFeignClient;
+    }
+
+    public List<AvailableDateHour> fetchAvailableDates() {
+        return availableDateFeignClient.getAllAvailableDates();
+    }
 
     private String title = "Hello from RDV2AL6";
 
