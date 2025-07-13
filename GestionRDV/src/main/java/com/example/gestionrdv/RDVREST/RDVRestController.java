@@ -138,7 +138,16 @@ public class RDVRestController {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
         }
     }
+    @GetMapping("/{clientId}")
+    public ResponseEntity<?> getRDVByClientId(@PathVariable int id) {
+        try {
+            List<RDV> RDV = RDVService.getRDVByClientId(id);
 
+            return ResponseEntity.ok(RDV);
+        } catch (IllegalArgumentException e) {
+            return ResponseEntity.status(404).body(e.getMessage());
+        }
+    }
 
 }
 

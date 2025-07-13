@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Stream;
 
 @Service
 
@@ -87,5 +88,15 @@ public class RDVService implements IRDV {
         client.setNom_client(nom_client.getNom_client());
         clientDTORepository.save(client);
     }
+
+    public List<RDV> getRDVByClientId(int id_client) {
+        List<RDV> rdvs = RDVRepository.findAll();
+        if (rdvs.isEmpty()) {
+            throw new IllegalArgumentException("No RDVs found for client with ID " + id_client);
+        }
+        return (List<RDV>) rdvs.stream().filter(rdv -> rdv.getClient().getId_client() == id_client);
+    }
+
+
 
 }
