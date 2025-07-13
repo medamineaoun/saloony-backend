@@ -1,5 +1,6 @@
 package com.aoun.treatmentmanagment;
 
+import com.aoun.treatmentmanagment.feign.SalonClient;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -35,4 +36,13 @@ public class TreatmentController {
     public Treatment modifyTreatment(@RequestBody Treatment treatment){
         return treatmentService.modifyTreatment(treatment);
     }
+
+    private final SalonClient salonClient;
+
+    @GetMapping("/salon/{id}")
+    public String getSalonName(@PathVariable Long id) {
+        SalonClient.Salon salon = salonClient.getSalonById(id);
+        return "Salon Name: " + salon.salonName;
+    }
+
 }
