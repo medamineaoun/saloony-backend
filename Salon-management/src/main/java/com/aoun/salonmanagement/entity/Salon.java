@@ -19,5 +19,7 @@ public class Salon {
     @Enumerated(EnumType.STRING)
     private SalonType salonType;
     private String salonDescription;
-    private String additionalService;
+
+    @Enumerated(EnumType.STRING)
+    private AdditionalService additionalService;
 }
