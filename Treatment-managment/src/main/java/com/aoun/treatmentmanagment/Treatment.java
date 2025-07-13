@@ -23,7 +23,7 @@ public class Treatment {
     private String treatmentDescription;
     private int  treatmentTime;
     private double treatmentPrice;
-
+    private Long salonId;
    // @ManyToOne
     //@JoinColumn(name = "salon_id")
   //  private Salon salon;
