@@ -53,6 +53,12 @@ public class ApiGatewayApplication {
 						.uri("lb://GestionRDV"))
 
 				.build();
+
+				// Avis-service
+				.route("avis-service", r -> r.path("/avis/**")
+				.uri("lb://avis-service"))
+
+				.build();
 	}
 
 }
