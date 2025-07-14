@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Availability-management/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2025_7_44___Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2025_7_44___Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2025_7_44___Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2025_7_44___Changes_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_7_2025_2_00___Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_7_2025_2_00___Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_7_2025_2_00___Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_7_2025_2_00___Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/shelve_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/shelve_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Availability-management/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Availability-management/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Availability-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Availability-management/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Availability-management/target/classes/com/availabilitymng/availabilitymng/AvailabilitymngApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Availability-management/target/classes/com/availabilitymng/availabilitymng/AvailabilitymngApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/User-management/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/Notif-RDV/package.json" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -49,12 +53,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.Api-gateway [clean].executor": "Run",
+    "Maven.Api-gateway [install].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.ApiGatewayApplication.executor": "Run",
     "Spring Boot.AvailabilitymngApplication.executor": "Run",
@@ -66,7 +73,7 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/Desktop/cours/cours_Esprit_2/microservices/saloony-backend",
+    "last_opened_file_path": "/home/aziz/Desktop/saloony/saloony-backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,7 +84,8 @@
     "project.structure.side.proportion": "0.0",
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "/home/aziz/Desktop/saloony/saloony-backend/saloony-front/node_modules/typescript/lib",
+    "show.migrate.to.gradle.popup": "false",
+    "ts.external.directory.path": "/snap/intellij-idea-ultimate/618/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -99,7 +107,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+  <component name="RunManager" selected="Spring Boot.AvailabilitymngApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.aoun.apigateway.ApiGatewayApplication" />
@@ -157,6 +165,14 @@
       </method>
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -169,6 +185,8 @@
       <workItem from="1752337552683" duration="4856000" />
       <workItem from="1752353717181" duration="59000" />
       <workItem from="1752354069348" duration="8584000" />
+      <workItem from="1752518573278" duration="519000" />
+      <workItem from="1752519116440" duration="3864000" />
     </task>
     <task id="LOCAL-00001" summary="availability management service">
       <option name="closed" value="true" />
@@ -234,7 +252,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752432920523</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="frontend project">
+      <option name="closed" value="true" />
+      <created>1752433296573</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1752433296573</updated>
+    </task>
+    <task id="LOCAL-00010" summary="frontend project">
+      <option name="closed" value="true" />
+      <created>1752434104883</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1752434104883</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
