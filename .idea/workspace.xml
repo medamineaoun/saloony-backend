@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-lo    <list default="true" id="5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7" name="Changes" comment="add dockerfile">
+    <list default="true" id="5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7" name="Changes" comment="login communication">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/aoun/apigateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-gateway/src/main/java/com/aoun/apigateway/ApiGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Availability-management/target/classes/com/availabilitymng/availabilitymng/entity/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Availability-management/target/classes/com/availabilitymng/availabilitymng/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User-management/src/main/java/com/aoun/usermanagement/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/User-management/src/main/java/com/aoun/usermanagement/auth/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User-management/src/main/java/com/aoun/usermanagement/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/User-management/src/main/java/com/aoun/usermanagement/config/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,44 +50,44 @@ lo    <list default="true" id="5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7" name="Chang
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.Api-gateway [clean].executor": "Run",
-    "Maven.Api-gateway [install].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.ApiGatewayApplication.executor": "Run",
-    "Spring Boot.AvailabilitymngApplication.executor": "Run",
-    "Spring Boot.EurekaServerApplication.executor": "Run",
-    "Spring Boot.GestionRdvApplication.executor": "Run",
-    "Spring Boot.SalonManagementApplication.executor": "Run",
-    "Spring Boot.TreatmentManagmentApplication.executor": "Run",
-    "Spring Boot.UserManagementApplication.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/aziz/Desktop/saloony/saloony-backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "show.migrate.to.gradle.popup": "false",
-    "ts.external.directory.path": "/home/aziz/Desktop/saloony/saloony-backend/saloony-front/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.Api-gateway [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Api-gateway [install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.AvailabilitymngApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GestionRdvApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SalonManagementApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TreatmentManagmentApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UserManagementApplication.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/aziz/Desktop/saloony/saloony-backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/aziz/Desktop/saloony/saloony-backend/saloony-front/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -191,7 +186,7 @@ lo    <list default="true" id="5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7" name="Chang
       <workItem from="1752353717181" duration="59000" />
       <workItem from="1752354069348" duration="8584000" />
       <workItem from="1752518573278" duration="519000" />
-      <workItem from="1752519116440" duration="17385000" />
+      <workItem from="1752519116440" duration="18334000" />
     </task>
     <task id="LOCAL-00001" summary="availability management service">
       <option name="closed" value="true" />
@@ -281,7 +276,15 @@ lo    <list default="true" id="5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7" name="Chang
       <option name="project" value="LOCAL" />
       <updated>1752523567304</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="login communication">
+      <option name="closed" value="true" />
+      <created>1752613879359</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1752613879359</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +305,8 @@ lo    <list default="true" id="5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7" name="Chang
     <MESSAGE value="availability management service" />
     <MESSAGE value="frontend project" />
     <MESSAGE value="add dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dockerfile" />
+    <MESSAGE value="login communication" />
+    <option name="LAST_COMMIT_MESSAGE" value="login communication" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -41,13 +41,11 @@ public class ApiGatewayApplication {
 						.uri("lb://availabilitymng"))
 				.route("rdv-service", r -> r.path("/RDVs/**")
 						.uri("lb://GestionRDV"))
+api				.route("avis-service", r -> r.path("/avis/**")
+						.uri("lb://avis-service"))
 				.build();
 
 				// Avis-service
-				.route("avis-service", r -> r.path("/avis/**")
-				.uri("lb://avis-service"))
-
-				.build();
 	}
 
 	@Bean
