@@ -4,22 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Availability-management/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/shelve_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/shelve_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+lo    <list default="true" id="5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7" name="Changes" comment="add dockerfile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Availability-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Availability-management/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Availability-management/target/classes/com/availabilitymng/availabilitymng/AvailabilitymngApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Availability-management/target/classes/com/availabilitymng/availabilitymng/AvailabilitymngApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/User-management/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/aoun/apigateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-gateway/src/main/java/com/aoun/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Availability-management/target/classes/com/availabilitymng/availabilitymng/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Availability-management/target/classes/com/availabilitymng/availabilitymng/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-management/src/main/java/com/aoun/usermanagement/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/User-management/src/main/java/com/aoun/usermanagement/auth/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-management/src/main/java/com/aoun/usermanagement/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/User-management/src/main/java/com/aoun/usermanagement/config/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -85,7 +89,7 @@
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "show.migrate.to.gradle.popup": "false",
-    "ts.external.directory.path": "/snap/intellij-idea-ultimate/618/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/home/aziz/Desktop/saloony/saloony-backend/saloony-front/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -94,6 +98,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/saloony-front/src/app" />
       <recent name="E:\Desktop\cours\cours_Esprit_2\microservices\saloony-backend\Config-server\src\main\resources" />
     </key>
   </component>
@@ -107,7 +112,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AvailabilitymngApplication">
+  <component name="RunManager" selected="Spring Boot.UserManagementApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.aoun.apigateway.ApiGatewayApplication" />
@@ -186,7 +191,7 @@
       <workItem from="1752353717181" duration="59000" />
       <workItem from="1752354069348" duration="8584000" />
       <workItem from="1752518573278" duration="519000" />
-      <workItem from="1752519116440" duration="3864000" />
+      <workItem from="1752519116440" duration="17385000" />
     </task>
     <task id="LOCAL-00001" summary="availability management service">
       <option name="closed" value="true" />
@@ -268,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752434104883</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add dockerfile">
+      <option name="closed" value="true" />
+      <created>1752523567304</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1752523567304</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +301,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="availability management service" />
     <MESSAGE value="frontend project" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend project" />
+    <MESSAGE value="add dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dockerfile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -297,6 +311,16 @@
           <url>file://$PROJECT_DIR$/Config-server/src/main/java/com/aoun/configserver/ConfigServerApplication.java</url>
           <line>8</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/User-management/src/main/java/com/aoun/usermanagement/auth/AuthController.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/User-management/src/main/java/com/aoun/usermanagement/UserManagementApplication.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
