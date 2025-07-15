@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7" name="Changes" comment="login communication">
+    <list default="true" id="5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7" name="Changes" comment="api gateway">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/aoun/apigateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-gateway/src/main/java/com/aoun/apigateway/ApiGatewayApplication.java" afterDir="false" />
     </list>
@@ -186,7 +186,7 @@
       <workItem from="1752353717181" duration="59000" />
       <workItem from="1752354069348" duration="8584000" />
       <workItem from="1752518573278" duration="519000" />
-      <workItem from="1752519116440" duration="18334000" />
+      <workItem from="1752519116440" duration="19061000" />
     </task>
     <task id="LOCAL-00001" summary="availability management service">
       <option name="closed" value="true" />
@@ -284,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752613879359</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="api gateway">
+      <option name="closed" value="true" />
+      <created>1752614680887</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1752614680887</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +314,8 @@
     <MESSAGE value="frontend project" />
     <MESSAGE value="add dockerfile" />
     <MESSAGE value="login communication" />
-    <option name="LAST_COMMIT_MESSAGE" value="login communication" />
+    <MESSAGE value="api gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="api gateway" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
