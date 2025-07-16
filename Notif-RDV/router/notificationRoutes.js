@@ -37,7 +37,8 @@ try {
 
     res.status(201).json({ success: true, notif });
   } catch (err) {
-    res.status(400).json({ error: err.message });
+    console.error('Erreur notification :', err.message);
+    res.status(500).json({ error: err.message });
   }
 })
 router.get("/:userId", async (req, res) => {
