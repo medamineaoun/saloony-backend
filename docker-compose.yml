@@ -28,6 +28,21 @@ services:
     networks:
       - saloony-network
 
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: saloony-phpmyadmin
+    restart: always
+    ports:
+      - "8088:80"
+    environment:
+      - PMA_HOST=mysql-db
+      - PMA_USER=saloony_user
+      - PMA_PASSWORD=saloony_pass
+    depends_on:
+      - mysql-db
+    networks:
+      - saloony-network
+
   user-management:
     build: ./User-management
     image: medamineaoun/user-management:1.0
@@ -62,20 +77,90 @@ services:
     networks:
       - saloony-network
 
-  phpmyadmin:
-    image: phpmyadmin
-    container_name: saloony-phpmyadmin
-    restart: always
+  treatment-managment:
+    build: ./Treatment-managment
+    image: medamineaoun/treatment-managment:1.0
+    container_name: saloony-treatment-managment
     ports:
-      - "8083:80"
+      - "8084:8084"
     environment:
-      - PMA_HOST=mysql-db
-      - PMA_USER=saloony_user
-      - PMA_PASSWORD=saloony_pass
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-db:3306/saloony_db?createDatabaseIfNotExist=true
+      - SPRING_DATASOURCE_USERNAME=saloony_user
+      - SPRING_DATASOURCE_PASSWORD=saloony_pass
     depends_on:
+      - eureka-server
       - mysql-db
     networks:
       - saloony-network
+    restart: unless-stopped
+
+  availability-management:
+    build: ./Availability-management
+    image: medamineaoun/availability-management:1.0
+    container_name: saloony-availability-management
+    ports:
+      - "8083:8083"
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-db:3306/saloony_db?createDatabaseIfNotExist=true
+      - SPRING_DATASOURCE_USERNAME=saloony_user
+      - SPRING_DATASOURCE_PASSWORD=saloony_pass
+    depends_on:
+      - eureka-server
+      - mysql-db
+    networks:
+      - saloony-network
+    restart: unless-stopped
+
+  appointment-management:
+    build: ./GestionRDV
+    image: medamineaoun/appointment-management:1.0
+    container_name: saloony-appointment-management
+    ports:
+      - "8085:8085"
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql-db:3306/saloony_db?createDatabaseIfNotExist=true
+      - SPRING_DATASOURCE_USERNAME=saloony_user
+      - SPRING_DATASOURCE_PASSWORD=saloony_pass
+    depends_on:
+      - eureka-server
+      - mysql-db
+    networks:
+      - saloony-network
+    restart: unless-stopped
+
+  api-gateway:
+    build: ./Api-gateway
+    image: medamineaoun/api-gateway:1.0
+    container_name: saloony-api-gateway
+    ports:
+      - "8080:8080"
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka
+    depends_on:
+      - eureka-server
+      - user-management
+      - salon-management
+      - treatment-managment
+      - availability-management
+    networks:
+      - saloony-network
+    restart: unless-stopped
+
+  saloony-frontend:
+      build: ./saloony-front
+      image: medamineaoun/saloony-frontend:1.0
+      container_name: saloony-frontend
+      ports:
+        - "4200:80"
+      depends_on:
+        - api-gateway
+      networks:
+        - saloony-network
+      restart: unless-stopped
+
 
 networks:
   saloony-network:
