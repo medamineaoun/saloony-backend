@@ -19,7 +19,8 @@ export class LoginComponent {
   isLoading = false;
   errorMessage: string | null = null;
   constructor(
-    private authService: AuthService
+    private authService: AuthService,
+    private router:Router
   ) {}
 
   onSubmit() {
@@ -35,7 +36,11 @@ export class LoginComponent {
     const { email, password } = this.loginForm.value;
 
     this.authService.login(email!, password!).subscribe({
-
+      next: (response) => {
+        // Succès de la connexion
+        console.log("Login successful, navigating to dashboard");
+        this.router.navigate(['/dash']);
+      },
       error: (err) => {
         this.errorMessage = err;
         this.isLoading = false;

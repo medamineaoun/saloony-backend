@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
+import {Observable} from "rxjs";
 
 @Injectable({
   providedIn: 'root'
@@ -14,5 +15,8 @@ export class AuthService {
       `${this.GATEWAY_URL}/api/auth/login`,
       { userEmail, userPassword }
     );
+  }
+  getAllSalons(): Observable<any[]> {
+    return this.http.get<any[]>(`${this.GATEWAY_URL}/api/salon/retrieve-all-salons`);
   }
 }

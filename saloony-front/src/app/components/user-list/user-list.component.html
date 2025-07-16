@@ -1,0 +1,25 @@
+<!-- src/app/user-list/user-list.component.html -->
+<div class="user-list-container">
+  <h2>Liste des Salons</h2>
+
+
+
+  <table class="user-table">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th>Additional Service</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let salon of salonsList">
+      <td>{{ salon.salonName }}</td>
+      <td>{{ salon.salonType }}</td>
+      <td>{{ salon.salonDescription }}</td>
+      <td>{{ salon.additionalService }}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

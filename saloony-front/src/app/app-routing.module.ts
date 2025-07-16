@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {LoginComponent} from "./components/Auth/login/login.component";
 import {SignUpComponent} from "./components/Auth/sign-up/sign-up.component";
+import {DashboardComponent} from "./components/dashboard/dashboard.component";
+import {UserListComponent} from "./components/user-list/user-list.component";
 
 export const routes: Routes = [
   {
@@ -17,6 +19,14 @@ export const routes: Routes = [
     path: 'signup',
     component: SignUpComponent
   },
+  {
+    path: 'dash',
+    component: DashboardComponent,
+    children:[
+      {path:'salons',component:UserListComponent}
+    ]
+  },
+  //{ path: 'users', component: UserListComponent },
   // Add other routes here
   {
     path: '**',

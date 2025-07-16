@@ -6,10 +6,14 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './components/Auth/login/login.component';
 import { SignUpComponent } from './components/Auth/sign-up/sign-up.component';
 import {HttpClientModule} from "@angular/common/http";
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { UserListComponent } from './components/user-list/user-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DashboardComponent,
+    UserListComponent
   ],
   imports: [
     BrowserModule,
