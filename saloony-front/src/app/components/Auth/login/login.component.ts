@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import {FormControl, FormGroup, ReactiveFormsModule, Validators} from "@angular/forms";
-import {RouterLink} from "@angular/router";
+import {Router, RouterLink} from "@angular/router";
 import {CommonModule} from "@angular/common";
+import {AuthService} from "../services/auth.service";
 
 @Component({
   selector: 'app-login',
@@ -17,8 +18,35 @@ export class LoginComponent {
   });
   isLoading = false;
   errorMessage: string | null = null;
+  constructor(
+    private authService: AuthService,
+    private router:Router
+  ) {}
 
+  onSubmit() {
+    console.log("hiiiiiiiiiii");
+    if (this.loginForm.invalid) {
+      //this.markAllAsTouched();
+      return;
+    }
 
-  onSubmit() {}
+    this.isLoading = true;
+    this.errorMessage = null;
+
+    const { email, password } = this.loginForm.value;
+
+    this.authService.login(email!, password!).subscribe({
+      next: (response) => {
+        // Succès de la connexion
+        console.log("Login successful, navigating to dashboard");
+        this.router.navigate(['/dash']);
+      },
+      error: (err) => {
+        this.errorMessage = err;
+        this.isLoading = false;
+      }
+    });
+  }
+
 
 }

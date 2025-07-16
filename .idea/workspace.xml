@@ -4,22 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Availability-management/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="5bedac41-7ef2-42a8-96e7-3ee80fcfc8b7" name="Changes" comment="api gateway">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2025_7_44___Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2025_7_44___Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2025_7_44___Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_2025_7_44___Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_7_2025_2_00___Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_7_2025_2_00___Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_7_2025_2_00___Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_7_2025_2_00___Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_7_2025_7_45___Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_7_2025_7_45___Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/shelve.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/shelve.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/shelve_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/shelve_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/shelve_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/shelve_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Availability-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Availability-management/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Availability-management/target/classes/com/availabilitymng/availabilitymng/AvailabilitymngApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Availability-management/target/classes/com/availabilitymng/availabilitymng/AvailabilitymngApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/User-management/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api-gateway/src/main/java/com/aoun/apigateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Api-gateway/src/main/java/com/aoun/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Availability-management/src/main/java/com/availabilitymng/availabilitymng/service/CrenauService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Availability-management/src/main/java/com/availabilitymng/availabilitymng/service/CrenauService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Availability-management/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Availability-management/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestionRDV/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GestionRDV/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestionRDV/src/main/java/com/example/gestionrdv/RDVREST/DateHour.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestionRDV/src/main/java/com/example/gestionrdv/RDVREST/DateHour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestionRDV/src/main/java/com/example/gestionrdv/RDVREST/RDV.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestionRDV/src/main/java/com/example/gestionrdv/RDVREST/RDV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestionRDV/src/main/java/com/example/gestionrdv/RDVREST/RDVRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestionRDV/src/main/java/com/example/gestionrdv/RDVREST/RDVRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestionRDV/src/main/java/com/example/gestionrdv/feignClient/AvailableDateFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestionRDV/src/main/java/com/example/gestionrdv/feignClient/AvailableDateFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestionRDV/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GestionRDV/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestionRDV/target/classes/com/example/gestionrdv/RDVREST/RDVRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/GestionRDV/target/classes/com/example/gestionrdv/RDVREST/RDVRestController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -73,7 +90,7 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/aziz/Desktop/saloony/saloony-backend",
+    "last_opened_file_path": "E:/Desktop/cours/cours_Esprit_2/microservices/saloony-backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,7 +102,7 @@
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "show.migrate.to.gradle.popup": "false",
-    "ts.external.directory.path": "/snap/intellij-idea-ultimate/618/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/home/aziz/Desktop/saloony/saloony-backend/saloony-front/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -94,6 +111,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/saloony-front/src/app" />
       <recent name="E:\Desktop\cours\cours_Esprit_2\microservices\saloony-backend\Config-server\src\main\resources" />
     </key>
   </component>
@@ -186,7 +204,8 @@
       <workItem from="1752353717181" duration="59000" />
       <workItem from="1752354069348" duration="8584000" />
       <workItem from="1752518573278" duration="519000" />
-      <workItem from="1752519116440" duration="3864000" />
+      <workItem from="1752519116440" duration="19061000" />
+      <workItem from="1752618899771" duration="5250000" />
     </task>
     <task id="LOCAL-00001" summary="availability management service">
       <option name="closed" value="true" />
@@ -268,7 +287,31 @@
       <option name="project" value="LOCAL" />
       <updated>1752434104883</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add dockerfile">
+      <option name="closed" value="true" />
+      <created>1752523567304</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1752523567304</updated>
+    </task>
+    <task id="LOCAL-00012" summary="login communication">
+      <option name="closed" value="true" />
+      <created>1752613879359</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1752613879359</updated>
+    </task>
+    <task id="LOCAL-00013" summary="api gateway">
+      <option name="closed" value="true" />
+      <created>1752614680887</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1752614680887</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +331,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="availability management service" />
     <MESSAGE value="frontend project" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend project" />
+    <MESSAGE value="add dockerfile" />
+    <MESSAGE value="login communication" />
+    <MESSAGE value="api gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="api gateway" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -297,6 +343,41 @@
           <url>file://$PROJECT_DIR$/Config-server/src/main/java/com/aoun/configserver/ConfigServerApplication.java</url>
           <line>8</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/User-management/src/main/java/com/aoun/usermanagement/auth/AuthController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/User-management/src/main/java/com/aoun/usermanagement/UserManagementApplication.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GestionRDV/src/main/java/com/example/gestionrdv/RDVREST/RDVRestController.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Availability-management/src/main/java/com/availabilitymng/availabilitymng/controller/AdminController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Availability-management/src/main/java/com/availabilitymng/availabilitymng/controller/ClientController.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Availability-management/src/main/java/com/availabilitymng/availabilitymng/controller/ClientController.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Availability-management/src/main/java/com/availabilitymng/availabilitymng/service/CrenauService.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
