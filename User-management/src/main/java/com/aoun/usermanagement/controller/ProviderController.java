@@ -38,4 +38,9 @@ public class ProviderController {
     public Provider modifyProvider(@RequestBody Provider provider){
         return providerService.modifyProvider(provider);
     }
+
+    @GetMapping("/retrieve-provider-by-name/{provider-name}")
+    public Provider retrieveProvider(@PathVariable("provider-name") String providerName){
+        return providerService.retrieveProviderByUserName(providerName);
+    }
 }

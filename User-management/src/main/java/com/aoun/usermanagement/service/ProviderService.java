@@ -40,4 +40,9 @@ public class ProviderService implements IProviderService {
     public Provider modifyProvider(Provider provider) {
         return providerRepository.save(provider);
     }
+
+    @Override
+    public Provider retrieveProviderByUserName(String UserName) {
+        return providerRepository.findByUserName(UserName).get();
+    }
 }

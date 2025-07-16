@@ -11,4 +11,6 @@ public interface IProviderService {
     public Provider addProvider(Provider provider);
     public void removeProvider(Long providerId);
     public Provider modifyProvider(Provider provider);
+
+    Provider retrieveProviderByUserName(String UserName);
 }
